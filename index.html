@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Burguer</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Dark Burguer</h1>
+    </header>
+
+    <!-- Botões de acessibilidade -->
+    <div id="acess">
+        <button onclick="toggleColorBlindMode()">Ativar/Desativar Modo Daltônico</button>
+        <button onclick="increaseTextSize()">Aumentar Tamanho da Letra</button>
+        <button onclick="decreaseTextSize()">Diminuir Tamanho da Letra</button>
+    </div>
+        
+    <h2>Cardápio</h2>
+        
+    <table>
+        <tr>
+            <th style="text-align: center;">Clássicos</th>
+            <th style="text-align: center;">Temáticos</th>
+            <th style="text-align: center;">Bebidas</th>
+        </tr>
+        <tr>
+            <td>
+                <!--CARDÁPIO DOS CLÁSSICOS-->
+                <div class="container" style="float:left; padding-left: 120px;">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Burguers</th>
+                                <th>Preço</th>
+                            </tr>
+                        </thead>
+                        
+                        <tbody>
+                            <tr>
+                                <td>X-Burguer</td>
+                                <td>R$ 12,00</td>
+                            </tr>
+                            <tr>
+                                <td>Cheddar Burguer</td>
+                                <td>R$ 15,00</td>
+                            </tr>
+                            <tr>
+                                <td>X-Bacon</td>
+                                <td>R$ 15,00</td>
+                            </tr>
+                            <tr>
+                                <td>X-Egg Burguer</td>
+                                <td>R$ 15,00</td>
+                            </tr>
+                            <tr>
+                                <td>Cheddar Bacon</td>
+                                <td>R$ 17,00</td>
+                            </tr>
+                            <tr>
+                                <td>Duplo Cheddar Bacon</td>
+                                <td>R$ 20,00</td>
+                            </tr>
+                        </tbody>
+                        
+                        <thead>
+                            <tr>
+                                <th><br>Salgados</th>
+                                <th><br>Preço</th>
+                            </tr>
+                        </thead>
+                        
+                        <tbody>
+                            <tr>
+                                <td>Coxinha</td>
+                                <td>R$ 5,50</td>
+                            </tr>
+                            <tr>
+                                <td>Enroladinho</td>
+                                <td>R$ 5,50</td>
+                            </tr>
+                            <tr>
+                                <td>Pastel</td>
+                                <td>R$ 7,00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </td>
+            
+            <td>
+                <!--CARDÁPIO TEMÁTICO-->
+                <div class="container" style="float: left; padding-left: 210px;">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Burguers</th>
+                                <th>Preço</th>
+                            </tr>
+                        </thead>
+                        
+                        <tbody>
+                            <tr>
+                                <td>Wednesday</td>
+                                <td>R$ 20,00</td>
+                            </tr>
+                            <tr>
+                                <td>Leviatã</td>
+                                <td>R$ 20,00</td>
+                            </tr>
+                            <tr>
+                                <td>Maria Florzinha</td>
+                                <td>R$ 20,00</td>
+                            </tr>
+                            <tr>
+                                <td>Evanescence</td>
+                                <td>R$ 25,00</td>
+                            </tr>
+                            <tr>
+                                <td>X-Emo</td>
+                                <td>R$ 25,00</td>
+                            </tr>
+                            <tr>
+                                <td>Michael Myers</td>
+                                <td>R$ 25,00</td>
+                            </tr>
+                        </tbody>
+                        
+                        <thead>
+                            <tr>
+                                <th><br>Combos</th>
+                                <th><br>Preço</th>
+                            </tr>
+                        </thead>
+                        
+                        <tbody>
+                            <tr>
+                                <td>Frankenstein</td>
+                                <td>R$ 50,00</td>
+                            </tr>
+                            <tr>
+                                <td>Família Addams</td>
+                                <td>R$ 50,00</td>
+                            </tr>
+                            <tr>
+                                <td>Frankenstein</td>
+                                <td>R$ 50,00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </td>
+            
+            <td>
+                <!--Bebidas-->
+                <div class="container" style="float: left; padding-left: 200px;">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Bebidas</th>
+                                <th>Preço</th>
+                            </tr>
+                        </thead>
+                        
+                        <tbody>
+                            <tr>
+                                <td>Água</td>
+                                <td>R$3,00</td>
+                            </tr>
+                            <tr>
+                                <td>Água com Gás</td>
+                                <td>R$5,00</td>
+                            </tr>
+                            <tr>
+                                <td>Suco de Limão</td>
+                                <td>R$10,00</td>
+                            </tr>
+                            <tr>
+                                <td>Suco de Laranja</td>
+                                <td>R$10,00</td>
+                            </tr>
+                            <tr>
+                                <td>Suco de Graviola</td>
+                                <td>R$10,00</td>
+                            </tr>
+                            <tr>
+                                <td>Suco de Abacaxi</td>
+                                <td>R$10,00</td>
+                            </tr>
+                            <tr>
+                                <td>Suco de Maracujá</td>
+                                <td>R$10,00</td>
+                            </tr>
+                            <tr>
+                                <td>Vodca</td>
+                                <td>R$15,00</td>
+                            </tr>
+                            <tr>
+                                <td>Vinho Tinto</td>
+                                <td>R$20,00</td>
+                            </tr>
+                            <tr>
+                                <td>Vinho Seco</td>
+                                <td>R$30,00</td>
+                            </tr>
+                            <tr>
+                                <td>Rum</td>
+                                <td>R$40,00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </td>
+        </tr>
+    </table>
+        
+        
+    <script>
+        // Alterar os estilos com base nos botões de acessibilidade
+        function toggleColorBlindMode() {
+            document.body.classList.toggle("color-blind-mode");
+        }
+
+        function increaseTextSize() {
+            document.body.classList.add("large-text");
+            document.body.classList.remove("small-text");
+        }
+
+        function decreaseTextSize() {
+            document.body.classList.add("small-text");
+            document.body.classList.remove("large-text");
+        }
+    </script>
+    
+</body>
+</html>
